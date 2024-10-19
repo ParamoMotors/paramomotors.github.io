@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <link rel="icon" type="image/x-icon" href="Iconos/favicon-32x32.png">
+    <meta charset="utf-8">
+    <title>ParamoMotors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #2E0D23;
+
+        }
+
+        .background-container {
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: url("./Imagenes/fondo.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;            
+        }
+        
+
+        .main-container {
+            width: 100%;
+            max-width: 996px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: hsl(320, 56%, 15%);
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.64);
+        }
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .div-encabezado {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .botones-nav {
+            display: flex;
+            justify-content: center;
+            height: 60px;
+
+        }
+
+        .a-nav {
+            text-decoration: none;
+            width: 100%;
+            height: 100%;
+        }
+
+        .btn-nav {
+            background-color: #F7803C;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            height: 100%;
+            transition: all 200ms ease-in-out;
+
+        }
+
+        .btn-nav:hover {
+            background-color: #F7A13C;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 996px;
+            height: 480px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .table-form {
+            width: 100%;
+            max-width: 440px;
+            margin: auto;
+            padding: 20px;
+            background-color: #F7803C;
+            border-radius: 10px;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.64);
+        }
+
+        .main-title {
+            color: white;
+        }
+
+        .contact {
+            color: white;
+        }
+
+        .Estilo5 {
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .form {
+            margin: 0;
+            padding: 0;
+        }
+
+        .btn-submit {
+            background-color: #2E0D23;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            height: 100%;
+            transition: all 200ms ease-in-out;
+        }
+
+        .btn-submit:hover {
+            background-color: #F7A13C;
+        }
+
+        .btn-reset {
+            background-color: #2E0D23;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            height: 100%;
+            transition: all 200ms ease-in-out;
+        }
+
+        .btn-reset:hover {
+            background-color: #F7A13C;
+        }
+
+        .container-atencion {
+            width: 100%;
+            max-width: 996px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            color: white;
+        }
+
+        .container-atencion h2 {
+            color: white;
+        }
+
+        .container-atencion p {
+            color: white;
+        }
+
+        .container-atencion a {
+            color: #F7A13C;
+            text-decoration: none;
+        }
+
+        .container-atencion a:hover {
+            color: #F7803C;
+            cursor: pointer;
+        }
+
+        .container-atencion span {
+            margin-top: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .container-atencion img {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            filter: brightness(0) saturate(100%) invert(69%) sepia(70%) saturate(2740%) hue-rotate(331deg) brightness(96%) contrast(101%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background-container">
+<div class="main-container">
+    <header>
+        <nav>
+            <ul>
+                <div class="div-encabezado">
+                    <img src="./Imagenes/banner_encabezado.jpg" width="996" height="320" alt="encabezado">
+                    <div class="botones-nav">
+                        <a href="index.html" class="a-nav"><button class="btn-nav">Inicio</button></a>
+                        <a href="mision_vision.html" class="a-nav"><button class="btn-nav">Misión y
+                                Visión</button></a>
+                        <a href="productos.html" class="a-nav"><button class="btn-nav">Productos y
+                                Servicios</button></a>
+                        <a href="promociones.html" class="a-nav"><button class="btn-nav">Promociones</button></a>
+                        <a href="contacto.html" class="a-nav"><button class="btn-nav">Contacto</button></a>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <table class="table-form">
+            <tr>
+                <td>
+                    <div align="center">
+                        <h2 align="center" class="main-title">Contáctanos por mensajería</h2>
+                    </div>
+                    <form name="form1" method="post" action="mailto:cli_pame_d@gmail.com" enctype="text/plain"
+                        class="form">
+                        <table align="center" class="contact">
+                            <tr>
+                                <td width="170">
+                                    <div align="right">
+                                        <label for="nombre"><span class="Estilo5">Nombre:</span></label>
+                                    </div>
+                                </td>
+                                <td width="270"><input type="text" name="nombre" id="nombre" size="32"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div align="right">
+                                        <label for="email"><span class="Estilo5">Email:</span></label>
+                                    </div>
+                                </td>
+                                <td><input type="email" name="email" id="email" size="35"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div align="right">
+                                        <label for="facebook"><span class="Estilo5">Facebook:</span></label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" name="facebook" size="35">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div align="right">
+                                        <label for="whatsapp"><span class="Estilo5">Whatsapp:</span></label>
+                                    </div>
+                                </td>
+                                <td>
+                                    <input type="text" name="whatsapp" size="35">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div align="right">
+                                        <label for="telefono"><span class="Estilo5">Teléfono:</span></label>
+                                    </div>
+                                </td>
+                                <td><input type="tel" name="telefono" id="telefono" size="14"></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div align="right">
+                                        <label for="mensaje"><span class="Estilo5">Mensaje:</span></label>
+                                    </div>
+                                </td>
+                                <td><textarea id="mensaje" name="mensaje" rows="8" cols="30"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div align="right">
+                                        <input type="submit" name="Submit" value="Enviar" class="btn-submit">
+                                    </div>
+                                </td>
+                                <td><input type="reset" value="Limpiar formulario" class="btn-reset" /></td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container-atencion">
+        <h2>Atención al cliente</h2>
+        <p>Si tienes alguna duda o pregunta, no dudes en contactarnos.</p>
+        <p>Correo: <a href="mailto:paramomotors@gmail.com">paramomotors@gmail.com</a></p>
+        <h2>Redes sociales</h2>
+        <p>Síguenos en nuestras redes sociales para estar al tanto de nuestras promociones y novedades.</p>
+        <p>Facebook:
+
+            <span>
+                <img src="/Iconos/facebook.png" alt="facebook">
+                <a>ParamoMotors</a>
+            </span>
+        </p>
+        <p>Instagram:
+            <span>
+                <img src="/Iconos/instagram.png" alt="instagram">
+                <a>@paramomotors</a>
+            </span>
+        </p>
+    </div>
+
+
+    <footer>
+        <div align="center">
+            <img src="./Imagenes/pie_de_pagina.jpg" alt="pie" width="996" height="300">
+        </div>
+    </footer>
+</div>
+    </div>
+    
+
+</body>
+
+</html>
